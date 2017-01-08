@@ -1,3 +1,9 @@
 #!/usr/bin/env ruby
 
-puts ARGV
+ sum=0
+
+ ARGV.each do |n|
+   sum=sum+n.to_i
+ end
+
+print sum
